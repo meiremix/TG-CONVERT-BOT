@@ -3,11 +3,10 @@ class Translation(object):
 
 #This will be appeared when anyone use start command
 
-      START = """Hello {0}
-
-I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {1}
-
-I can convert file to video or video to file with custom thumbnail support.
+      START = """ שלום !
+      אני בוט ש @meiremix יצר ואני יכול לעשות כמה דברים 
+      לרשימת הפקודות כתוב לבוט /help .{0}
+.
 """
 
 
