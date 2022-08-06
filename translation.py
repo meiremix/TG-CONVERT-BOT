@@ -6,7 +6,7 @@ class Translation(object):
       START = """שלום !
       אני בוט ש @meiremix יצר ואני יכול להמיר קבצי וידאו.
       
-      לאופן השימוש כתוב לבוט @help .
+      לאופן השימוש כתוב לבוט /help .
 """
 
 
@@ -21,6 +21,8 @@ class Translation(object):
 3. תגיב על הוידאו ששלחת /converttovideo בשביל להפוך אותו לצפייה ישירה.
 
 4. תגיב על הוידאו או הקובץ ששלחת /converttofile בשביל להפוך אותו לקובץ.
+
+נ.ב. אם הבוט נתקע בשלב ההעלאה נסה להמיר מחדש
 
 
 """
@@ -72,11 +74,11 @@ You access will be revoke by tomorrow"""
 #DON'T CHANGE THE NUMBERS IN THE FLOWER BRACKETS AND THE ORDER OF PERCENTAGE, DONE, TOTAL, SPEED, ETA ONLY CHANGE THE THEME 
 
       PROGRESS = """
-Percentage : {0}%
-Done ✅: {1}
-Total 🌀: {2}
-Speed 🚀: {3}/s
-ETA 🕰: {4}
+אחוזי התקדמות : {0}%
+הושלם ✅: {1}
+סך הכל משקל הקובץ 🌀: {2}
+מהירות הורדה / העלאה 🚀: {3}/s
+זמן סיום משוער 🕰: {4}
 """
        
       DOWNLOAD_PROGRESS = "▪️"
@@ -87,11 +89,11 @@ ETA 🕰: {4}
 
 
 
-      DOWNLOAD_START = "Trying to Download 📥"
-      DOWNLOAD_COMPLETE = "✅ Media Downloaded successfully\nPreparing for upload"
-      UPLOAD_START = "Trying to Upload 📤"
-      UPLOAD_COMPLETE = "THANKS FOR USING ME"
-      SAVED_CUSTOM_THUMB_NAIL = "✅ Saved Thumbnail Successfully. This will be deleted in 24hrs"
-      BANNED_TEXT = "YOU ARE BANNED. SO YOUR ARE NOT ABLE TO USE ME 🐒"
-      REPLY_TEXT = "👩‍✈️ Reply to the media which you need to convert"
-      DEL_ETED_CUSTOM_THUMB_NAIL = "Thumbnail Deleted Successfully ✅"
+      DOWNLOAD_START = "מנסה להוריד 📥"
+      DOWNLOAD_COMPLETE = "✅ הורד בהצלחה\nמתכונן להעלאה"
+      UPLOAD_START = "מנסה להעלות 📤"
+      UPLOAD_COMPLETE = "תודה שהשתמשתם בי !"
+      SAVED_CUSTOM_THUMB_NAIL = "✅ שמרתי את התמונה בהצלחה. אם לא תשתמש בתמונה היא תמחק בתוך 24 שעות"
+      BANNED_TEXT = "אתה חסום. אז לא תוכל להשתמש בי 🐒"
+      REPLY_TEXT = "👩‍✈️ הגב על הוידאו או הקובץ שברצונך להמיר"
+      DEL_ETED_CUSTOM_THUMB_NAIL = "מחקתי את התמונה בהצלחה ✅"
