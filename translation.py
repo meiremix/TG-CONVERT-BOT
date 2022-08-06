@@ -3,26 +3,26 @@ class Translation(object):
 
 #This will be appeared when anyone use start command
 
-      START = """ שלום !
-      אני בוט ש @meiremix יצר ואני יכול לעשות כמה דברים 
-      לרשימת הפקודות כתוב לבוט /help .{0}
-.
+      START = """שלום !
+      אני בוט ש @meiremix יצר ואני יכול להמיר קבצי וידאו.
+      
+      לאופן השימוש כתוב לבוט @help .
 """
 
 
 #This will be appeared when anyone use help command
 
-      HELP = """**Hey you need help 🤔 ?**
+      HELP = """**צריך עזרה ?**
 
-1. Send me the telegram file or video which you wanted to convert.
+1. שלח אליי קובץ או וידאו מטלגרם.
 
-2. Send me the thumbnail(photo) optional.
+2. שלח אלי תמונה שתהיה על הקובץ או הוידאו.
 
-3. Reply to video /converttofile for converting into file.
+3. תגיב על הוידאו ששלחת /converttovideo בשביל להפוך אותו לצפייה ישירה.
 
-4. Reply to file /converttovideo for converting into video.
+4. תגיב על הוידאו או הקובץ ששלחת /converttofile בשביל להפוך אותו לקובץ.
 
-**SUPPORT GROUP:** [NS Bot Supporters](https://telegram.dog/Ns_Bot_supporters)
+
 """
 
 
@@ -33,16 +33,12 @@ class Translation(object):
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
+**👨‍💻 Developer:** 
 
-**📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
-
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
-
-**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT)
+**💻 Source Code:**[Press Me](https://github.com/meiremix/TG-CONVERT-BOT)
 
 """
-
+#Ns anonymous
 ####################################################################################################################################################
 ####################################################################################################################################################
 
